@@ -1,17 +1,46 @@
 
-El producto ID: 1 | Nombre: Peras | Cantidad: 56 | Precio: $0.33 fue añadido correctamente.
-El producto ID: 1 | Nombre: Peras | Cantidad: 56 | Precio: $0.33 fue añadido correctamente.
-El producto ID: 1 | Nombre: Peras | Cantidad: 56 | Precio: $0.33 fue añadido correctamente.
-El producto ID: 1 | Nombre: Peras | Cantidad: 56 | Precio: $0.33 fue añadido correctamente.
-El producto ID: 1 | Nombre: Peras | Cantidad: 56 | Precio: $0.33 fue añadido correctamente.
-El producto ID: 1 | Nombre: Arandanos | Cantidad: 25 | Precio: $0.1 fue añadido correctamente.
-El producto ID: 1 | Nombre: Arandanos | Cantidad: 25 | Precio: $0.1 fue añadido correctamente.
-El producto ID: 1 | Nombre: Arandanos | Cantidad: 25 | Precio: $0.1 fue añadido correctamente.
-El producto ID: 1 | Nombre: Arandanos | Cantidad: 25 | Precio: $0.1 fue añadido correctamente.
-El producto ID: 1 | Nombre: Arandanos | Cantidad: 25 | Precio: $0.1 fue añadido correctamente.
-El producto ID: 1 | Nombre: Peras | Cantidad: 23 | Precio: $0.33 fue añadido correctamente.
-El producto ID: 1 | Nombre: Peras | Cantidad: 23 | Precio: $0.33 fue añadido correctamente.
-El producto ID: 1 | Nombre: Peras | Cantidad: 23 | Precio: $0.33 fue añadido correctamente.
-El producto ID: 1 | Nombre: Peras | Cantidad: 23 | Precio: $0.33 fue añadido correctamente.
-El producto ID: 1 | Nombre: Peras | Cantidad: 23 | Precio: $0.33 fue añadido correctamente.
-El producto ID: 1 | Nombre: Peras | Cantidad: 23 | Precio: $0.33 fue añadido correctamente.
+ID: 1 | Nombre: Manzanas | Cantidad: 23 | Precio: $0.26
+ID: 2 | Nombre: Peras | Cantidad: 33 | Precio: $0.27
+ID: 3 | Nombre: Uvas | Cantidad: 25 | Precio: $1.5
+ID: 4 | Nombre: Duraznos | Cantidad: 50 | Precio: $0.35
+ID: 5 | Nombre: Cerezas | Cantidad: 20 | Precio: $1.3
+El producto ID: 6 | Nombre: Cerezas | Cantidad: 20 | Precio: $1.33 fue añadido correctamente.
+ID: 1 | Nombre: Manzanas | Cantidad: 23 | Precio: $0.26
+ID: 2 | Nombre: Peras | Cantidad: 33 | Precio: $0.27
+ID: 3 | Nombre: Uvas | Cantidad: 25 | Precio: $1.5
+ID: 4 | Nombre: Duraznos | Cantidad: 50 | Precio: $0.35
+ID: 5 | Nombre: Cerezas | Cantidad: 20 | Precio: $1.3
+ID: 6 | Nombre: Cerezas | Cantidad: 20 | Precio: $1.33
+El producto Manzanas fue eliminado correctamente.
+ID: 2 | Nombre: Peras | Cantidad: 33 | Precio: $0.27
+ID: 3 | Nombre: Uvas | Cantidad: 25 | Precio: $1.5
+ID: 4 | Nombre: Duraznos | Cantidad: 50 | Precio: $0.35
+ID: 5 | Nombre: Cerezas | Cantidad: 20 | Precio: $1.3
+ID: 6 | Nombre: Cerezas | Cantidad: 20 | Precio: $1.33
+ID: 2 | Nombre: Peras | Cantidad: 33 | Precio: $0.27
+ID: 3 | Nombre: Uvas | Cantidad: 25 | Precio: $1.5
+ID: 4 | Nombre: Duraznos | Cantidad: 50 | Precio: $0.35
+ID: 5 | Nombre: Cerezas | Cantidad: 20 | Precio: $1.3
+ID: 6 | Nombre: Cerezas | Cantidad: 20 | Precio: $1.33
+El precio del producto Peras fue modificado correctamente.
+ID: 2 | Nombre: Peras | Cantidad: 33 | Precio: $2.3
+ID: 3 | Nombre: Uvas | Cantidad: 25 | Precio: $1.5
+ID: 4 | Nombre: Duraznos | Cantidad: 50 | Precio: $0.35
+ID: 5 | Nombre: Cerezas | Cantidad: 20 | Precio: $1.3
+ID: 6 | Nombre: Cerezas | Cantidad: 20 | Precio: $1.33
+La cantidad del producto Cerezas fue modificada correctamente.
+ID: 2 | Nombre: Peras | Cantidad: 33 | Precio: $2.3
+ID: 3 | Nombre: Uvas | Cantidad: 25 | Precio: $1.5
+ID: 4 | Nombre: Duraznos | Cantidad: 50 | Precio: $0.35
+ID: 5 | Nombre: Cerezas | Cantidad: 20 | Precio: $1.3
+ID: 6 | Nombre: Cerezas | Cantidad: 333 | Precio: $1.33
+ID: 2 | Nombre: Peras | Cantidad: 33 | Precio: $2.3
+ID: 3 | Nombre: Uvas | Cantidad: 25 | Precio: $1.5
+ID: 4 | Nombre: Duraznos | Cantidad: 50 | Precio: $0.35
+ID: 5 | Nombre: Cerezas | Cantidad: 20 | Precio: $1.3
+ID: 6 | Nombre: Cerezas | Cantidad: 333 | Precio: $1.33
+ID: 2 | Nombre: Peras | Cantidad: 33 | Precio: $2.3
+ID: 3 | Nombre: Uvas | Cantidad: 25 | Precio: $1.5
+ID: 4 | Nombre: Duraznos | Cantidad: 50 | Precio: $0.35
+ID: 5 | Nombre: Cerezas | Cantidad: 20 | Precio: $1.3
+ID: 6 | Nombre: Cerezas | Cantidad: 333 | Precio: $1.33

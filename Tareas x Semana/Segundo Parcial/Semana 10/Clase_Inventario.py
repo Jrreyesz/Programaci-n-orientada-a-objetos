@@ -16,23 +16,38 @@ class Inventario:
         for producto in self.productos:
             print(producto)
 
+    #Creamos un metodo para almacenar todos los ids de los productos del inventario
+    def todos_los_id(self):
+        self.lista_de_ids = []
+        for i in range(len(self.productos)):
+            self.lista_de_ids.append(int(self.productos[i].id))
+
+
     #Creamos un método para añadir un producto
     def añadir_producto(self, id, nombre, cantidad, precio):
+
         variable_producto = Producto(id, nombre, cantidad, precio)
-        for producto in self.productos:
-            if producto.id == variable_producto.id:
-                print('El id escrito ya esta en uso.')
-                break
-            elif producto.id != variable_producto.id:
-                self.productos.append(variable_producto)
-                print(f'El producto {variable_producto} fue añadido correctamente.')
-                try:
-                    with open('inventario.txt', 'a') as archivo:
-                        archivo.write(f'\nEl producto {variable_producto} fue añadido correctamente.')
-                except Exception as error:
-                    print('El producto no se añadió correctamente al archivo inventario:', error)
-                else:
-                    print('El producto fue añadido correctamente al archivo inventario.')
+
+        #Llamamos al metodo todos_los_id para que se cree la lista con todos los ids existentes en el invenario
+        self.todos_los_id()
+
+        #Comprobamos que el id del nuevo producto no se encuentre dentro de los ids existentes
+        if int(variable_producto.id) in self.lista_de_ids:
+            print('El id escrito ya esta en uso. Intente otra vez.')
+        else:
+            self.productos.append(variable_producto)
+            print(f'El producto {variable_producto} fue añadido correctamente.')
+
+            #Manejamos los errores que se puedan dar al crear el archivo
+            try:
+                #Utilizamos 'a' para que no se borre el archivo y no se sobreescriba todo desde cero
+                with open('inventario.txt', 'a') as archivo:
+                    archivo.write(f'\nEl producto {variable_producto} fue añadido correctamente.')
+            except Exception as error:
+                print('El producto no se añadió correctamente al archivo inventario:', error)
+            #Este else sirve para que se nos notifique si no hubo una excepción en el programa
+            else:
+                print('El producto fue añadido correctamente al archivo inventario.')
 
 
 
@@ -42,7 +57,7 @@ class Inventario:
         registro_id = input('Ingrese el ID del producto que desea eliminar: ').strip()
 
         for producto in self.productos:
-            if producto.id == registro_id:
+            if str(producto.id) == registro_id:
                 self.productos.remove(producto)
                 print(f'El producto {producto.nombre} fue eliminado correctamente.')
                 try:
@@ -52,8 +67,8 @@ class Inventario:
                     print('El producto eliminado no se añadió correctamente al archivo inventario:', error)
                 else:
                     print('La eliminación del producto fue añadida correctamente al archivo inventario.')
-            else:
-                print('El id no es correcto')
+                return
+        print('El id ingresado no es correcto.')
 
 
 
@@ -61,10 +76,11 @@ class Inventario:
     def actualizar_precio(self):
 
         registro_id = input('Ingrese el ID del producto al que le desea modificar el precio: ').strip()
-        nuevo_precio = float(input('Ingrese el nuevo precio del producto: '))
+
 
         for producto in self.productos:
-            if producto.id == registro_id:
+            if str(producto.id) == registro_id:
+                nuevo_precio = float(input('Ingrese el nuevo precio del producto: '))
                 producto.precio = nuevo_precio
                 print(f'El precio del producto {producto.nombre} fue modificado correctamente.')
                 try:
@@ -74,16 +90,18 @@ class Inventario:
                     print(f'La modificación del producto {producto.nombre }no se añadió correctamente al archivo inventario:', error)
                 else:
                     print(f'La modificación del producto {producto.nombre}fue añadida correctamente al archivo inventario.')
-
+                return
+        print('El id ingresado no es correcto.')
 
     #Método para actualizar la cnatidad por ID
     def actualizar_cantidad(self):
 
         registro_id = input('Ingrese el ID del producto al que le desea modificar: ').strip()
-        nueva_cantidad = int(input('Ingrese la nueva cantidad del producto: '))
+
 
         for producto in self.productos:
-            if producto.id == registro_id:
+            if str(producto.id) == registro_id:
+                nueva_cantidad = int(input('Ingrese la nueva cantidad del producto: '))
                 producto.cantidad = nueva_cantidad
                 print(f'La cantidad del producto {producto.nombre} fue modificada correctamente.')
                 try:
@@ -93,7 +111,8 @@ class Inventario:
                     print(f'La modificación del producto {producto.nombre} no se añadió correctamente al archivo inventario:', error)
                 else:
                     print(f'La modificación del producto {producto.nombre} fue añadida correctamente al archivo inventario.')
-
+                return
+        print('El id ingresado no es correcto.')
 
     #Método para buscar un producto por el nombre
     def buscar_producto(self):
@@ -102,5 +121,7 @@ class Inventario:
         for producto in self.productos:
             if producto.nombre == nombre_producto:
                 print(f'El producto que estas buscando es: {producto}')
+                return
+        print('Producto no encontrado.')
 
 

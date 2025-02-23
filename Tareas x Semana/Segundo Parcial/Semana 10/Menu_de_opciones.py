@@ -8,6 +8,11 @@ inventario = Inventario()
 
 while True:
 
+    #Escribimos en el archivo inventario cada producto del inventario
+    with open('inventario.txt', 'a') as file:
+        for producto in inventario.productos:
+            file.write(f'\n{str(producto)}')
+
     print('\n1. Eliminar producto')
     print('2. Actualizar precio')
     print('3. Actualizar cantidad')
@@ -20,16 +25,12 @@ while True:
 
     if opcion == '1':
         inventario.eliminar_producto_id()
-        print('Cambio hecho satisfactoriamente.')
     elif opcion == '2':
         inventario.actualizar_precio()
-        print('Cambio hecho satisfactoriamente.')
     elif opcion == '3':
         inventario.actualizar_cantidad()
-        print('Cambio hecho satisfactoriamente.')
     elif opcion == '4':
         inventario.buscar_producto()
-        print('Ejecutado correctamente.')
     elif opcion == '5':
         print('Inventario: ')
         inventario.mostrar_inventario()
@@ -39,7 +40,6 @@ while True:
         cantidad = int(input('Ingrese el cantidad del producto: '))
         precio = float(input('Ingrese el precio del producto: '))
         inventario.añadir_producto(id, nombre, cantidad, precio)
-        print('Cambio hecho satisfactoriamente.')
     elif opcion == '7':
         print('Ha salido del programa')
         break
