@@ -1,0 +1,17 @@
+
+El producto ID: 1 | Nombre: Peras | Cantidad: 56 | Precio: $0.33 fue añadido correctamente.
+El producto ID: 1 | Nombre: Peras | Cantidad: 56 | Precio: $0.33 fue añadido correctamente.
+El producto ID: 1 | Nombre: Peras | Cantidad: 56 | Precio: $0.33 fue añadido correctamente.
+El producto ID: 1 | Nombre: Peras | Cantidad: 56 | Precio: $0.33 fue añadido correctamente.
+El producto ID: 1 | Nombre: Peras | Cantidad: 56 | Precio: $0.33 fue añadido correctamente.
+El producto ID: 1 | Nombre: Arandanos | Cantidad: 25 | Precio: $0.1 fue añadido correctamente.
+El producto ID: 1 | Nombre: Arandanos | Cantidad: 25 | Precio: $0.1 fue añadido correctamente.
+El producto ID: 1 | Nombre: Arandanos | Cantidad: 25 | Precio: $0.1 fue añadido correctamente.
+El producto ID: 1 | Nombre: Arandanos | Cantidad: 25 | Precio: $0.1 fue añadido correctamente.
+El producto ID: 1 | Nombre: Arandanos | Cantidad: 25 | Precio: $0.1 fue añadido correctamente.
+El producto ID: 1 | Nombre: Peras | Cantidad: 23 | Precio: $0.33 fue añadido correctamente.
+El producto ID: 1 | Nombre: Peras | Cantidad: 23 | Precio: $0.33 fue añadido correctamente.
+El producto ID: 1 | Nombre: Peras | Cantidad: 23 | Precio: $0.33 fue añadido correctamente.
+El producto ID: 1 | Nombre: Peras | Cantidad: 23 | Precio: $0.33 fue añadido correctamente.
+El producto ID: 1 | Nombre: Peras | Cantidad: 23 | Precio: $0.33 fue añadido correctamente.
+El producto ID: 1 | Nombre: Peras | Cantidad: 23 | Precio: $0.33 fue añadido correctamente.
