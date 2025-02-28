@@ -1,0 +1,38 @@
+[
+    {
+        "id": 2,
+        "nombre": "Peras",
+        "cantidad": 33,
+        "precio": 0.98
+    },
+    {
+        "id": 3,
+        "nombre": "Uvas",
+        "cantidad": 63,
+        "precio": 1.5
+    },
+    {
+        "id": 4,
+        "nombre": "Duraznos",
+        "cantidad": 50,
+        "precio": 0.35
+    },
+    {
+        "id": 5,
+        "nombre": "Naranjas",
+        "cantidad": 20,
+        "precio": 0.5
+    },
+    {
+        "id": "6",
+        "nombre": "Mandarinas",
+        "cantidad": 60,
+        "precio": 0.35
+    },
+    {
+        "id": "7",
+        "nombre": "Leche 1L",
+        "cantidad": 30,
+        "precio": 1.1
+    }
+]
