@@ -12,7 +12,7 @@ ventana.title('Agenda Personal')
 #Creamos un TreeView en forma de tabla
 tv = ttk.Treeview(ventana, columns = ('Hora', 'Descripción'))
 #Creamos sus columnas
-tv.column('#0', width=150)
+
 tv.column('Hora', width=150, anchor = tk.CENTER)
 tv.column('Descripción', width=150, anchor = tk.CENTER)
 
